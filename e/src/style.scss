@@ -1,0 +1,32 @@
+.formContainer{
+    background-color: #a7bcff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .formWrapper{
+        .logo{
+            color: #5d5b8d;
+            font-weight: bold;
+            font-size: 24px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .title{
+            color: #5d5b8d;
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        background-color: white;
+        padding: 20px 60px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+    }
+}
