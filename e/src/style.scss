@@ -151,10 +151,77 @@
                     object-fit: cover;
                 }
             }
+            .userChatInfo{
+                span{
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+                p{
+                    font-size: 14px;
+                    color: lightgrey;
+                }
+            }
         }
         .chat{
             flex: 2;
 
+            .chatInfo{
+                height: 50px;
+                background-color: #5d5b8d;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px;
+                color: lightgray;
+            }
+            .chatIcons{
+                display: flex;
+                gap: 10px;
+
+                img{
+                    height: 24px;
+                    cursor: pointer;
+                }
+            }
+
+            .messages{
+                background-color: #ddddf7;
+                padding: 10px;
+                height: calc(100% - 160px);
+            }
+            .input{
+                height: 50px;
+                background-color: white;
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                input{
+                    width: 100%;
+                    border: none;
+                    outline: none;
+                    color: #2f2d52;
+                    font-size: 18px;
+                    &::placeholder{
+                        color: lightgray;
+                    }
+                }
+                .send{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    img{
+                        height: 24px;
+                        cursor: pointer;
+                    }
+                    button{
+                        border: none;
+                        padding: 10px 15px;
+
+                    }
+                }
+            }
         }
     }
 
